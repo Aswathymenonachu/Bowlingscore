@@ -7,8 +7,15 @@ A simple JavaScript function to calculate total bowling scores including strikes
 npm install
 node src/bowling.js
 
-Run Tests
-npm test
-
 Example
 calculateBowlingTotal([[5,3], [10], [4,6]]); // returns 38
+
+How to Test
+npm install
+npm test
+
+Expected Output
+
+✅ All test cases should pass successfully and return:
+
+PASS  tests/bowling.test.js
