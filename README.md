@@ -1,8 +1,8 @@
-# 🎳 Bowling Score Calculator
+#  Bowling Score Calculator
 
 A simple JavaScript function to calculate total bowling scores including strikes and spares.
 
-## 🚀 How to Run
+##  How to Run
 ```bash
 npm install
 node src/bowling.js
