@@ -22,3 +22,6 @@ PASS  tests/bowling.test.js
 
 Live Demo
 https://bowlingscore.vercel.app/
+
+Test status
+https://github.com/Aswathymenonachu/Bowlingscore/actions/runs/18569238407/job/52938570796
