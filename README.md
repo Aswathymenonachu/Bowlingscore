@@ -20,5 +20,8 @@ Expected Output
 
 PASS  tests/bowling.test.js
 
-Live Demo
+Live Demo 
 https://bowlingscore.vercel.app/
+
+Actions (Tests)
+ https://github.com/Aswathymenonachu/Bowlingscore/actions/   
