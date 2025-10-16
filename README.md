@@ -23,5 +23,8 @@ PASS  tests/bowling.test.js
 Live Demo
 https://bowlingscore.vercel.app/
 
+This project includes a **GitHub Actions workflow (`main.yml`)** that runs all Jest test cases automatically on:
+- Every `push` to any branch
+- Every `pull request` opened or updated
 Test status
-https://github.com/Aswathymenonachu/Bowlingscore/actions/runs/18569238407/job/52938570796
+https://github.com/Aswathymenonachu/Bowlingscore/actions/
