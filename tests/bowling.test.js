@@ -1,4 +1,4 @@
-import { calculateBowlingTotal } from "../src/bowling.js";
+const { calculateBowlingTotal } = require("../src/bowling");
 
 test("calculates mixed frames", () => {
   expect(calculateBowlingTotal([[5,3], [10], [4,6]])).toBe(38);
@@ -9,6 +9,8 @@ test("calculates all open frames", () => {
 });
 
 test("handles all strikes", () => {
-  const perfect = Array(9).fill([10]).concat([[10,10,10]]);
+  const perfect = Array.from({ length: 9 }, () => [10]).concat([[10,10,10]]);
   expect(calculateBowlingTotal(perfect)).toBe(300);
 });
+
+
